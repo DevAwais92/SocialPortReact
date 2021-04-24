@@ -1,7 +1,7 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 import Home from './Home'
-import NotFound from './NotFound'
+// import NotFound from './NotFound'
 import Contact from './Contact'
 import Navbar from './Navbar'
 import Services from './Services'
@@ -19,10 +19,10 @@ function AppRouter() {
                 <Route exact path="/contact" component={Contact} />
                 <Route exact path="/services" component={Services} />
                 <Route exact path="/about" component={About} />
-                <Route component={NotFound} />
+                {/* <Route component={NotFound} /> */}
                 {/* <Redirect to="/" /> */}
             </Switch>
-            
+
             <Footer />
         </div>
     )
