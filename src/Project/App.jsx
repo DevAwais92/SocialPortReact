@@ -20,7 +20,7 @@ function AppRouter() {
                 <Route exact path="/services" component={Services} />
                 <Route exact path="/about" component={About} />
                 {/* <Route component={NotFound} /> */}
-                {/* <Redirect to="/" /> */}
+                <Redirect to="/" />
             </Switch>
 
             <Footer />
