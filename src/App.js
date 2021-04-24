@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+// import Forms from './Components/Forms';
+// import TodoApp from './Components/TodoApp';
+// import IncDec from './Components/IncDec'
+// import ContextAPI from './ContextAPI/ComA'
+// import PekachuAPI from './Components/PekachuAPI'
+// import AppRouter from './router/AppRouter'
+import ProjectRouter from './Project/App'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    {/* <Forms />
+    <TodoApp />
+    <IncDec />
+        <ContextAPI />
+    <PekachuAPI /> */}
+    {/* <AppRouter /> */}
+    <ProjectRouter />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
