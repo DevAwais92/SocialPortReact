@@ -1,7 +1,7 @@
 import React from 'react'
 import Common from './Common'
 import home from './img/home.jpg'
-import '.././index.css'
+import '.././index.scss'
 
 const Home = () => {
     return (
